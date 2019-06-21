@@ -1,13 +1,13 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: process-item-$ITEM
+  name: kubernetes-job-example
   labels:
     jobgroup: jobexample
 spec:
   template:
     metadata:
-      name: jobexample
+      name: kubejob
       labels:
         jobgroup: jobexample
     spec:
