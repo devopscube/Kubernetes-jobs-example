@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: c
-        image: devopscube/kube-jobs-demo:latest
+        image: devopscube/kubernetes-job-demo:latest
         command: ["100"]
       restartPolicy: Never
